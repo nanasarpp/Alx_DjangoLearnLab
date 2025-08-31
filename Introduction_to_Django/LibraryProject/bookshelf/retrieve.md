@@ -1,4 +1,4 @@
-book = Book.objects.get(id = 1)
->>> print(book.title, book.author, book.publ
-ication_year)
-Things Fall Apart Chinua Achebe 1958
+```python
+book = Book.objects.get(title="1984")
+book.title, book.author, book.publication_year
+# ('1984', 'George Orwell', 1949)
